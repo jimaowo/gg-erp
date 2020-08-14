@@ -1,0 +1,429 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		// 设计
+		{
+			"path":"pages/index/design/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/index/design/add",
+			"style":{}
+		},
+		{
+			"path":"pages/index/design/edit",
+			"style":{}
+		},
+		//详情
+		{
+			"path":"pages/index/design/detail"
+		},
+		//主料、辅料
+		{
+			"path":"pages/index/design/mainList"
+		},
+		{
+			"path":"pages/index/design/viceList"
+		},
+		//采购
+		{
+			"path":"pages/index/purchase/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/index/purchase/add"
+		},
+		{
+			"path":"pages/index/purchase/edit"
+		},
+		{
+			"path":"pages/index/purchase/detail"
+		},
+		//采购出入库
+		{
+			"path":"pages/index/pinout/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/index/pinout/detail"
+		},
+		//商品管理
+		{
+			"path":"pages/index/goods/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/index/goods/inout",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/index/goods/inoutDetail"
+		},
+		{
+			"path":"pages/index/goods/add"
+		},
+		{
+			"path":"pages/index/goods/detail"
+		},
+		//物料
+		{
+			"path":"pages/index/material/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/index/material/add"
+		},
+		{
+			"path":"pages/index/material/edit"
+		},
+		{
+			"path":"pages/index/material/detail"
+		},
+		//出入库
+		{
+			"path":"pages/index/inout/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/index/inout/detail"
+		},
+		// 生产模块 ----
+		{
+			"path": "pages/production/production",
+			"style": {
+				"navigationBarTitleText": "生产"
+			}
+		},
+		//生产进度
+		{
+			"path":"pages/production/progress/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/production/progress/detail"
+		},
+		// 任务单
+		{
+			"path":"pages/production/task/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/production/task/detail"
+		},
+		{
+			"path":"pages/production/task/plan"
+		},
+		// 生产计划单
+		{
+			"path":"pages/production/plan/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/production/plan/detail"
+		},
+		{
+			"path":"pages/production/plan/edit"
+		},
+		// 裁床
+		{
+			"path":"pages/production/cut/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/production/cut/detail"
+		},
+		{
+			"path":"pages/production/cut/cut"
+		},
+		{
+			"path":"pages/production/cut/send"
+		},
+		
+		//发货管理
+		{
+			"path":"pages/production/ship/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/production/ship/detail"
+		},
+		{
+			"path":"pages/production/ship/send"
+		},
+		// 外协发货
+		{
+			"path":"pages/production/send/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/production/send/detail"
+		},
+		// 外协收货
+		{
+			"path":"pages/production/get/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/production/get/detail"
+		},
+		
+		
+		// 基础模块
+		{
+			"path":"pages/base/base",
+			"style":{
+				"navigationBarTitleText": "基础"
+			}
+		},
+		// 供应商
+		{
+			"path":"pages/base/supplier/typeList",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/base/supplier/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/base/supplier/add",
+			"style":{}
+		},
+		{
+			"path":"pages/base/supplier/edit",
+			"style":{}
+		},
+		// 外协
+		{
+			"path":"pages/base/association/typeList",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/base/association/list",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/base/association/add",
+			"style":{}
+		},
+		{
+			"path":"pages/base/association/edit",
+			"style":{}
+		},
+		// 其他基础资料 颜色、品牌、尺码
+		{
+			"path":"pages/base/color/color",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/base/brand/brand",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/base/size/size",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/base/process/process",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/base/season/season",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/base/unit/unit",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		// 生产类型、级别……
+		{
+			"path":"pages/base/production/production",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/base/level/level",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/base/material/type",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/base/depot/depot",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		//额外做的设计单位、款式类型、生产单位
+		{
+			"path":"pages/base/design/company",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/base/style/type",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/base/produce/company",
+			"style":{
+				"enablePullDownRefresh": true
+			}
+		},
+		
+		
+		{
+			"path":"pages/statistic/statistic",
+			"style":{
+				"navigationBarTitleText": "统计"
+			}
+		},
+		//设计相关
+		{
+			"path":"pages/statistic/design/one",
+			"style":{}
+		},
+		{
+			"path":"pages/statistic/design/two",
+			"style":{}
+		},
+		{
+			"path":"pages/statistic/product/one",
+			"style":{}
+		},
+		{
+			"path":"pages/statistic/product/two",
+			"style":{}
+		},
+		{
+			"path":"pages/statistic/product/three",
+			"style":{}
+		},
+		
+		//用户相关
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path":"pages/info/about",
+			"style": {}
+		},
+		{
+			"path":"pages/user/password",
+			"style": {}
+		},
+		{
+			"path":"pages/user/user",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path":"pages/user/role/role",
+			"style": {
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+            "path" : "pages/user/role/auth",
+            "style" : {}
+        }
+    ],
+	"globalStyle": {
+		"navigationStyle": "custom"
+	},
+	"tabBar": {
+		"borderStyle": "black",
+		"backgroundColor": "#F8F8F8",
+		"selectedColor": "#006633",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"iconPath": "static/img/tabbar/home.png",
+				"selectedIconPath": "static/img/tabbar/homeactive.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/production/production",
+				"iconPath": "static/img/tabbar/production.png",
+				"selectedIconPath": "static/img/tabbar/productionactive.png",
+				"text": "生产"
+			},
+			{
+				"pagePath": "pages/base/base",
+				"iconPath": "static/img/tabbar/base.png",
+				"selectedIconPath": "static/img/tabbar/baseactive.png",
+				"text": "设置"
+			},
+			{
+				"pagePath": "pages/statistic/statistic",
+				"iconPath": "static/img/tabbar/statistic.png",
+				"selectedIconPath": "static/img/tabbar/statisticactive.png",
+				"text": "统计"
+			}
+		]
+	}
+}
