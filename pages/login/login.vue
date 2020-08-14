@@ -1,6 +1,8 @@
 <template>
 	<view class="content">
-		<cu-custom bgColor="xg-nav"><block slot="content">登录</block></cu-custom>
+		<cu-custom bgColor="xg-nav-one-color">
+			<block slot="content">登录</block>
+		</cu-custom>
 		<view class="login-bg">
 			<view class="login-card">
 				<view class="login-head">请登录你的帐号</view>
@@ -49,11 +51,11 @@
 			};
 		},
 		onLoad(e) {
-			if(e.from) {
+			if (e.from) {
 				this.from = e.from
 			}
 			if (e.token) {
-				
+
 			}
 		},
 		methods: {
@@ -122,10 +124,10 @@
 				uni.setStorageSync('upload', 1)
 				uni.setStorageSync('login', 1)
 				uni.setStorageSync('token', e.token)
-				if(e.user) {
+				if (e.user) {
 					uni.setStorageSync('user', e.user)
 				}
-				
+
 				// 获取diy菜单并保存
 				api.get({
 					url: 'diy/menu',
@@ -133,19 +135,19 @@
 						uni.setStorageSync('menu', res.data)
 					}
 				});
-				
+
 				uni.showToast({
 					duration: 1000,
 					title: '登录成功'
 				});
-				
+
 				setTimeout((e => {
 					uni.hideLoading()
 					uni.reLaunch({
 						url: this.from
 					});
 				}), 1000);
-				
+
 				/* if(this.from) {
 					setTimeout((e => {
 						uni.hideLoading()

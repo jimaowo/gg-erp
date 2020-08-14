@@ -65,7 +65,7 @@
         "devServer" : {
             "https" : false
         },
-        "title" : "小手手",
-        "domain" : "xs.com"
+        "title" : "GG-ERP",
+        "domain" : "demo-erp-h5.com"
     }
 }
