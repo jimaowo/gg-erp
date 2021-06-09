@@ -47,9 +47,14 @@
 十、 统计分析
 
 # 功能演示
-生成的h5端演示：
+生成的h5端演示(APP、小程序都能利用uni-app一键生成，功能一样，这里就不放演示了)：
 - 因为是移动端h5界面，建议用手机访问，或调整好浏览器宽度
 - [演示地址](http://demo-erp-h5.jimaowo.com)http://demo-erp-h5.jimaowo.com
+- 演示帐号：demo
+- 密码：123456
+
+PC端演示（数据和移动端打通）：
+- [演示地址](http://demo-erp-pc.jimaowo.com)http://demo-erp-pc.jimaowo.com
 - 演示帐号：demo
 - 密码：123456
 
